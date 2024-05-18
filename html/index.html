@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pustefix Game</title>
+    <link rel="stylesheet" href="../styles/index.css">
+</head>
+
+
+<body>
+    <header>
+    <div>
+        <p class="headline">
+            Stein, Papier, Schere, Echse, Spock
+        </p>
+    </div>
+    <div>
+    </header>
+
+    <main>
+        <section>
+            <div class="play-buttons">
+    <button class="move-button"
+    onclick="playGame('stein')">
+        <img class="move-icon" src="../images/stein-emoji.png">
+    </button>
+  
+    <button class="move-button"
+    onclick="playGame('papier')">
+        <img class="move-icon" src="../images/papier-emoji.png">
+    </button>
+
+    <button class="move-button"
+    onclick="playGame('schere')">
+        <img class="move-icon" src="../images/schere-emoji.png">
+    </button>
+
+    <button class="move-button"
+    onclick="playGame('echse')">
+        <img class="move-icon" src="../images/echse-emoji.png">
+    </button>
+
+    <button class="move-button"
+    onclick="playGame('spock')">
+        <img class="move-icon" src="../images/spock-emoji.png">
+    </button>
+</div>
+</section>
+<section>
+    <p class="result js-result"></p>
+    <p class="score js-score"></p>
+
+    <button class="reset-button"
+    onclick="resetScore()">
+        Reset Score
+    </button>
+</section>
+</main>
+
+<footer>
+    <div>
+        <p>
+        Bei Ideen was ich noch so machen kann gerne eine Nachricht an Sahret auf Discord
+    </p>
+    </div>
+</footer>
+
+</div>
+
+<script src="../scripts/index.js"></script>
+
+</body>
+
+</html>
