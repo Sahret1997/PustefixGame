@@ -44,9 +44,9 @@ function playGame(userChoice) {
     
     document.querySelector('.js-result').innerHTML = 
     `Du wählst 
-    <img class="result-icon" src="../images/${userChoice}-emoji.png"> 
+    <img class="result-icon" src="images/${userChoice}-emoji.png"> 
     Bot wählt
-     <img class="result-icon" src="../images/${computerChoice}-emoji.png"> :
+     <img class="result-icon" src="images/${computerChoice}-emoji.png"> :
      ${result}`;
 
      localStorage.setItem('score', JSON.stringify(score));
